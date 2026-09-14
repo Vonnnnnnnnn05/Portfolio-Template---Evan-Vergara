@@ -49,5 +49,16 @@
     footerObserver.observe(footer);
   }
 
-  if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register(document.querySelector('meta[name="service-worker-url"]').content).catch(() => {}));
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (const registration of registrations) {
+          registration.unregister();
+        }
+      }).catch(() => {});
+      if ('caches' in window) {
+        caches.keys().then((keys) => keys.forEach((key) => caches.delete(key))).catch(() => {});
+      }
+    });
+  }
 })();

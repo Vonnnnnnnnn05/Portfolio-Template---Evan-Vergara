@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="service-worker-url" content="{{ asset('sw.js') }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Geovanni Vergara — Tier 2 Linux System Administrator, Dedicated Server & VPS Specialist, cPanel & WHM Certified.">
   <link rel="canonical" href="{{ url('/') }}">
@@ -15,7 +14,6 @@
   <meta name="twitter:image" content="{{ asset('images/geovanni.png') }}">
   <meta name="theme-color" content="#111111">
   <script>try{const t=localStorage.getItem('portfolio-theme');const d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.dataset.theme=d?'dark':'light'}catch(e){}</script>
-  <link rel="manifest" href="{{ asset('manifest.json') }}">
   <link rel="icon" type="image/png" href="{{ asset('images/geovanni.png') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
