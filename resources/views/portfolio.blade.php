@@ -4,33 +4,35 @@
   <meta charset="UTF-8">
   <meta name="service-worker-url" content="{{ asset('sw.js') }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Geovanni M. Vergara — Portfolio and developer showcase.">
+  <meta name="description" content="Geovanni Vergara — Tier 2 Linux System Administrator, Dedicated Server & VPS Specialist, cPanel & WHM Certified.">
   <link rel="canonical" href="{{ url('/') }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ url('/') }}">
-  <meta property="og:title" content="Geovanni M. Vergara — Developer Portfolio">
-  <meta property="og:description" content="Portfolio of web systems and technology projects by Geovanni M. Vergara.">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:title" content="Geovanni Vergara — Tier 2 Linux System Administrator">
+  <meta property="og:description" content="Tier 2 Linux System Administrator at Dreamscape Networks with expertise in Dedicated Servers, VPS, cPanel/WHM, and cloud infrastructure.">
+  <meta property="og:image" content="{{ asset('images/geovanni.png') }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ asset('images/geovanni.png') }}">
   <meta name="theme-color" content="#111111">
   <script>try{const t=localStorage.getItem('portfolio-theme');const d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.dataset.theme=d?'dark':'light'}catch(e){}</script>
   <link rel="manifest" href="{{ asset('manifest.json') }}">
-  <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
+  <link rel="icon" type="image/png" href="{{ asset('images/geovanni.png') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('styles.css') }}?v={{ time() }}">
   <link rel="stylesheet" href="{{ asset('enhancements.css') }}?v={{ time() }}">
-  <title>Geovanni M. Vergara — Developer Portfolio</title>
-  <script type="application/ld+json">{"@@context":"https://schema.org","@@type":"Person","name":"Geovanni M. Vergara","url":"{{ url('/') }}","jobTitle":"Web Developer"}</script>
+  <title>Geovanni Vergara — Tier 2 Linux System Administrator</title>
+  <script type="application/ld+json">{"@@context":"https://schema.org","@@type":"Person","name":"Geovanni Vergara","image":"{{ asset('images/geovanni.png') }}","url":"{{ url('/') }}","jobTitle":"Tier 2 Linux System Administrator","worksFor":{"@@type":"Organization","name":"Dreamscape Networks"},"alumniOf":{"@@type":"CollegeOrUniversity","name":"Asian College of Technology - Cebu"},"sameAs":["https://www.linkedin.com/in/geovanni-vergara-27b7a418b/","https://university.cpanel.net/user/67111/#"]}</script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="wordmark" href="#top" aria-label="Geovanni M. Vergara, home">Geovanni M. Vergara<span>.</span></a>
+      <a class="wordmark" href="#top" aria-label="Geovanni Vergara, home">Geovanni Vergara<span>.</span></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
       </nav>
       <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
         <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.2 15.7A8.5 8.5 0 0 1 8.3 3.8 8.5 8.5 0 1 0 20.2 15.7Z"/></svg>
@@ -40,231 +42,354 @@
     </div>
   </header>
   <main id="main-content">
-    <section id="top" class="hero shell reveal hero-no-image">
+    <section id="top" class="hero shell reveal hero-with-image">
       <div class="hero-copy">
         <div class="hero-eyebrow-wrap">
-          <span class="eyebrow">Portfolio &amp; Selected Systems</span>
+          <span class="eyebrow">Tier 2 Linux System Administrator · Dedicated &amp; VPS</span>
           <span class="eyebrow-divider">/</span>
-          <span class="eyebrow-year">2026 Edition</span>
+          <span class="eyebrow-year">Dreamscape Networks · Cebu</span>
         </div>
-        <h1>Geovanni M.<br>Vergara<span>.</span></h1>
-        <p class="hero-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <h1>Geovanni<br>Vergara<span>.</span></h1>
+        <p class="hero-summary">Tier 2 Linux System Administrator and cPanel &amp; WHM Certified Professional with over 9 years at Dreamscape Networks managing Dedicated Servers, VPS, and multi-region hosting platforms.</p>
         
         <div class="availability-pill">
           <span class="live-pulse-dot" aria-hidden="true"></span>
-          <p class="availability-label">Lorem ipsum dolor sit amet, consectetur adipiscing elit vivamus lacinia.</p>
+          <p class="availability-label">Tier 2 Linux System Administrator · Open to Linux SysAdmin &amp; Hosting Manager roles</p>
         </div>
 
         <div class="hero-actions">
-          <a class="button button-primary" href="#work">Explore Work <span aria-hidden="true">↓</span></a>
-          <a class="button button-secondary" href="#contact">Start Conversation</a>
+          <a class="button button-primary" href="#certifications">View Certifications <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/geovanni-vergara-27b7a418b/" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a>
         </div>
 
         <div class="hero-stats-row">
           <div class="stat-box">
-            <span class="stat-num">01</span>
-            <span class="stat-text">Clean Architecture</span>
+            <span class="stat-num">9+ Yrs</span>
+            <span class="stat-text">Dreamscape Networks</span>
           </div>
           <span class="stat-slash" aria-hidden="true">/</span>
           <div class="stat-box">
-            <span class="stat-num">02</span>
-            <span class="stat-text">Modern Stack</span>
+            <span class="stat-num">08</span>
+            <span class="stat-text">Certified Credentials</span>
           </div>
           <span class="stat-slash" aria-hidden="true">/</span>
           <div class="stat-box">
-            <span class="stat-num">03</span>
-            <span class="stat-text">Fast Performance</span>
+            <span class="stat-num">2010</span>
+            <span class="stat-text">BS Computer Engineering</span>
           </div>
         </div>
 
         <ul class="social-list" aria-label="Professional links">
-          <li><a href="#" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
-          <li><a href="#contact" rel="noopener noreferrer">Contact ↗</a></li>
+          <li><a href="https://www.linkedin.com/in/geovanni-vergara-27b7a418b/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
+          <li><a href="https://university.cpanel.net/user/67111/#" target="_blank" rel="noopener noreferrer">cPanel Profile ↗</a></li>
+          <li><a href="#certifications">Certificates ↗</a></li>
+          <li><a href="#contact">Contact ↗</a></li>
         </ul>
+      </div>
+
+      <div class="hero-portrait-wrap">
+        <figure class="portrait-frame">
+          <img src="{{ asset('images/geovanni.png') }}" width="445" height="445" alt="Geovanni Vergara — Tier 2 Linux System Administrator" loading="eager">
+        </figure>
       </div>
     </section>
 
     <section id="about" class="shell section reveal">
       <div class="section-label">01 / About</div>
       <div class="about-grid">
-        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <h2>Tier 2 Linux System Administrator &amp; Infrastructure Specialist.</h2>
         <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
-          <p>Nunc ut sem vitae risus tristique posuere. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <p>Geovanni Vergara is an experienced Tier 2 Linux System Administrator and cPanel &amp; WHM Certified System Administrator with a solid background in managing Dedicated Servers, VPS, and high-density shared hosting platforms. He graduated with a degree in Computer Engineering from Asian College of Technology - Cebu in 2010.</p>
+          <p>With over 9 years of continuous service at Dreamscape Networks, Geovanni provides 24x7 systems administration and production escalation support, ensuring high uptime, reliable virtualization, rapid incident triage, and seamless customer operations across global data centers.</p>
         </div>
       </div>
       <div class="capability-grid" aria-label="Capabilities">
         <article>
           <div class="cap-header">
             <span class="cap-num">01</span>
-            <span class="cap-pill">Architecture</span>
+            <span class="cap-pill">Hosting Infrastructure</span>
           </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+          <h3>Dedicated &amp; VPS Servers</h3>
+          <p>24x7 Tier 2 systems administration for Linux (CentOS 7, CloudLinux), Windows Server, cPanel/WHM, and Plesk across global data center regions.</p>
         </article>
         <article>
           <div class="cap-header">
             <span class="cap-num">02</span>
-            <span class="cap-pill">Development</span>
+            <span class="cap-pill">Virtualization &amp; Services</span>
           </div>
-          <h3>Dolor Sit</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo.</p>
+          <h3>vSphere, Virtuozzo &amp; Services</h3>
+          <p>Advanced troubleshooting of Apache, MySQL, Exim, Dovecot, alongside VMware vSphere/vCenter and Virtuozzo Hypervisor virtualization.</p>
         </article>
         <article>
           <div class="cap-header">
             <span class="cap-num">03</span>
-            <span class="cap-pill">Engineering</span>
+            <span class="cap-pill">Networking &amp; Security</span>
           </div>
-          <h3>Amet Consectetur</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+          <h3>Hardening &amp; Network Config</h3>
+          <p>Configuring system-level networking and security: IPTables, OpenVPN, SSH, Sendmail, NFS, NIC Bonding, and automated JetBackup recovery.</p>
         </article>
-      </div>
-      <div class="tech-stack" aria-label="Technology stack">
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>PHP</strong><span>Backend</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/composer/composer-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Composer</strong><span>Dependencies</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>JavaScript</strong><span>Frontend &amp; APIs</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>MySQL</strong><span>Database</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codeigniter/codeigniter-plain.svg" width="40" height="40" loading="lazy" alt=""><div><strong>CodeIgniter 4</strong><span>Framework</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Laravel</strong><span>Framework</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Bootstrap</strong><span>UI toolkit</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Tailwind CSS</strong><span>UI styling</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Arduino</strong><span>Hardware</span></div></article>
-        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Git</strong><span>Version control</span></div></article>
-        <article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Nginx</strong><span>Web server</span></div><small>Recent</small></article>
-        <article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Ubuntu</strong><span>Server OS</span></div><small>Recent</small></article>
-        <article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Azure</strong><span>Cloud platform</span></div><small>Recent</small></article>
-      </div>
-    </section>
-
-    <section id="work" class="shell section work-section reveal">
-      <div class="section-heading">
-        <div class="section-label">02 / Selected work</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</p>
-      </div>
-      <div class="selected-grid">
-        <article class="project">
-          <div class="project-meta">
-            <span class="project-badge">01</span>
-            <span class="project-category">Web System</span>
-          </div>
-          <h2>Lorem Ipsum Project</h2>
-          <p class="project-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
-          <dl class="case-study">
-            <div class="case-item"><dt>Problem</dt><dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.</dd></div>
-            <div class="case-item"><dt>Approach</dt><dd>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd></div>
-            <div class="case-item"><dt>Key features</dt><dd>Lorem · Ipsum · Dolor</dd></div>
-          </dl>
-          <div class="tag-row"><span>Lorem</span><span>Ipsum</span><span>Dolor</span></div>
-          <div class="project-actions">
-            <a class="project-link" href="#">Explore project <span aria-hidden="true">→</span></a>
-            <span class="project-status">Production</span>
-          </div>
-        </article>
-
-        <article class="project">
-          <div class="project-meta">
-            <span class="project-badge">02</span>
-            <span class="project-category">Cloud Database</span>
-          </div>
-          <h2>Dolor Sit Application</h2>
-          <p class="project-lead">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
-          <dl class="case-study">
-            <div class="case-item"><dt>Problem</dt><dd>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</dd></div>
-            <div class="case-item"><dt>Approach</dt><dd>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</dd></div>
-            <div class="case-item"><dt>Key features</dt><dd>Consectetur · Adipiscing · Elit</dd></div>
-          </dl>
-          <div class="tag-row"><span>Consectetur</span><span>Adipiscing</span><span>Elit</span></div>
-          <div class="project-actions">
-            <a class="project-link" href="#">Explore project <span aria-hidden="true">→</span></a>
-            <span class="project-status">Completed</span>
-          </div>
-        </article>
-
-        <article class="project">
-          <div class="project-meta">
-            <span class="project-badge">03</span>
-            <span class="project-category">Interface &amp; API</span>
-          </div>
-          <h2>Amet Elit Platform</h2>
-          <p class="project-lead">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur.</p>
-          <dl class="case-study">
-            <div class="case-item"><dt>Problem</dt><dd>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sed quia non.</dd></div>
-            <div class="case-item"><dt>Approach</dt><dd>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</dd></div>
-            <div class="case-item"><dt>Key features</dt><dd>Sed · Cursus · Ante</dd></div>
-          </dl>
-          <div class="tag-row"><span>Sed</span><span>Cursus</span><span>Ante</span></div>
-          <div class="project-actions">
-            <a class="project-link" href="#">Explore project <span aria-hidden="true">→</span></a>
-            <span class="project-status">Featured</span>
-          </div>
-        </article>
-      </div>
-
-      <div class="additional-work">
-        <div class="section-heading">
-          <div class="section-label">Additional work</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="work-index">
-          <div class="work-group">
-            <h3>Lorem systems</h3>
-            <a href="#"><span>Lorem Ipsum One</span><small>Lorem · Ipsum</small><b>↗</b></a>
-            <a href="#"><span>Lorem Ipsum Two</span><small>Dolor · Sit</small><b>↗</b></a>
-            <a href="#"><span>Lorem Ipsum Three</span><small>Amet · Consectetur</small><b>↗</b></a>
-            <a href="#"><span>Lorem Ipsum Four</span><small>Adipiscing · Elit</small><b>↗</b></a>
-          </div>
-          <div class="work-group">
-            <h3>Dolor projects</h3>
-            <a href="#"><span>Dolor Sit One</span><small>Lorem · Ipsum</small><b>↗</b></a>
-            <div class="work-unavailable"><span>Dolor Sit Two</span><small>Dolor · Sit</small><b>Unavailable</b></div>
-            <a href="#"><span>Dolor Sit Three</span><small>Amet · Consectetur</small><b>↗</b></a>
-          </div>
-        </div>
       </div>
     </section>
 
     <section id="experience" class="shell section reveal">
-      <div class="section-label">03 / Experience</div>
+      <div class="section-label">02 / Experience &amp; Education</div>
       <div class="resume-grid single-column">
         <div>
-          <h2>Experience</h2>
+          <h2>Work Experience &amp; Education</h2>
           <ol class="timeline">
             <li>
               <div class="timeline-head">
-                <h3>Lorem Ipsum Role</h3>
-                <span class="timeline-period">2024 — Present</span>
+                <h3>Tier 2 Linux System Administrator — VPS, Dedicated &amp; Shared Servers</h3>
+                <span class="timeline-period">Jan 2018 — Present</span>
               </div>
               <div class="timeline-org">
-                <span class="org-name">Lorem Ipsum Enterprise</span>
-                <span class="org-type">Full Time</span>
+                <span class="org-name">Dreamscape Networks</span>
+                <span class="org-type">Full Time · 8 yrs 9 mos</span>
+                <span class="timeline-location">📍 Cebu, Central Visayas, Philippines</span>
               </div>
-              <p class="timeline-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p class="timeline-desc">Provides 24x7 Tier 2 systems administration and production escalation support across Linux (CentOS 7, CloudLinux), Windows Server, cPanel/WHM, and Plesk environments via Zendesk. Manages VIP Dedicated Servers, VPS, and Colocation infrastructure, resolves complex escalations, troubleshoots core services (Apache, MySQL, Exim, Dovecot), manages VMware vSphere/vCenter and Virtuozzo hypervisors, and implements OS-level networking and security (IPTables, OpenVPN, SSH, Sendmail, NFS, NIC Bonding).</p>
+              <div class="tag-row">
+                <span>CentOS 7</span>
+                <span>CloudLinux</span>
+                <span>cPanel / WHM</span>
+                <span>Plesk</span>
+                <span>Dedicated Servers</span>
+                <span>VPS</span>
+                <span>VMware vSphere</span>
+                <span>Virtuozzo</span>
+                <span>Apache / MySQL</span>
+                <span>Exim / Dovecot</span>
+                <span>IPTables</span>
+                <span>OpenVPN</span>
+              </div>
             </li>
             <li>
               <div class="timeline-head">
-                <h3>Dolor Sit Position</h3>
-                <span class="timeline-period">2022 — 2024</span>
+                <h3>Information Technology Support Engineer</h3>
+                <span class="timeline-period">Mar 2017 — Jan 2018</span>
               </div>
               <div class="timeline-org">
-                <span class="org-name">Dolor Sit Corporation</span>
-                <span class="org-type">Contract</span>
+                <span class="org-name">Dreamscape Networks</span>
+                <span class="org-type">Full Time · 11 mos</span>
+                <span class="timeline-location">📍 Cebu, Central Visayas, Philippines</span>
               </div>
-              <p class="timeline-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="timeline-desc">Delivered technical systems support, tier-1 escalation triage, and customer server administration. Diagnosed availability issues, handled hardware/software tickets, and maintained SLA standards.</p>
+              <div class="tag-row">
+                <span>System Administration</span>
+                <span>Technical Support</span>
+                <span>Incident Triage</span>
+              </div>
             </li>
             <li>
               <div class="timeline-head">
-                <h3>Consectetur Specialist</h3>
-                <span class="timeline-period">2021 — 2022</span>
+                <h3>IT Supervisor / Network Administrator</h3>
+                <span class="timeline-period">Mar 2013 — Aug 2013</span>
               </div>
               <div class="timeline-org">
-                <span class="org-name">Consectetur Solutions</span>
-                <span class="org-type">Project Lead</span>
+                <span class="org-name">Sun Savings Bank, Inc.</span>
+                <span class="org-type">Full Time · 6 mos</span>
+                <span class="timeline-location">📍 Cebu, Central Visayas, Philippines</span>
               </div>
-              <p class="timeline-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              <p class="timeline-desc">Supervised IT banking operations, managed local and wide-area networks, and enforced banking network security, access controls, backups, and server reliability.</p>
+              <div class="tag-row">
+                <span>Network Administration</span>
+                <span>Banking Infrastructure</span>
+                <span>Security Access Controls</span>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-head">
+                <h3>System Administrator</h3>
+                <span class="timeline-period">Jun 2010 — Jan 2013</span>
+              </div>
+              <div class="timeline-org">
+                <span class="org-name">EDITEC</span>
+                <span class="org-type">Full Time · 2 yrs 8 mos</span>
+                <span class="timeline-location">📍 Greater London, England, UK</span>
+              </div>
+              <p class="timeline-desc">Monitored and maintained enterprise systems, hardware, and network infrastructure remotely and on-site. Maintained network security through access controls, backups, and firewalls. Managed SQL Server database administration (DBA), .NET application environments, and quality delivery into production.</p>
+              <div class="tag-row">
+                <span>System Administration</span>
+                <span>SQL Server DBA</span>
+                <span>Firewalls &amp; Backups</span>
+                <span>Remote Admin</span>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-head">
+                <h3>Bachelor of Science in Computer Engineering</h3>
+                <span class="timeline-period">Graduated 2010</span>
+              </div>
+              <div class="timeline-org">
+                <span class="org-name">Asian College of Technology - Cebu</span>
+                <span class="org-type">Academic Degree</span>
+                <span class="timeline-location">📍 Cebu City, Philippines</span>
+              </div>
+              <p class="timeline-desc">Graduated with a degree in Computer Engineering, establishing core technical foundations in computer architectures, network engineering, operating systems, and software engineering.</p>
+              <div class="tag-row">
+                <span>Computer Engineering</span>
+                <span>Network Architecture</span>
+                <span>Operating Systems</span>
+              </div>
             </li>
           </ol>
         </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="shell section reveal">
+      <div class="section-heading">
+        <div class="section-label">03 / Certificates &amp; Credentials</div>
+        <p>Officially certified by cPanel University and WebPros in server administration, security, performance, and disaster recovery.</p>
+        <div class="cert-profile-banner">
+          <div class="cert-profile-info">
+            <span class="cert-verified-icon" aria-hidden="true">✓</span>
+            <div>
+              <strong>Geovanni Vergara — cPanel &amp; WHM Certified System Administrator</strong>
+              <span>cPanel University User ID: #67111 · Verified Credential Holder</span>
+            </div>
+          </div>
+          <a class="button button-secondary" href="https://university.cpanel.net/user/67111/#" target="_blank" rel="noopener noreferrer">
+            Official cPanel Profile ↗
+          </a>
+        </div>
+      </div>
+      <div class="cert-grid">
+        <article class="cert-card">
+          <div class="cert-card-header">
+            <span class="cert-badge">Core Certification</span>
+            <span class="cert-status"><span class="cert-status-dot" aria-hidden="true"></span> Verified</span>
+          </div>
+          <h3>cPanel Professional</h3>
+          <span class="cert-issuer">cPanel University · WebPros</span>
+          <div class="cert-id-block">
+            <span>Certificate ID</span>
+            <code>4adc-adc3-df64-4fec</code>
+          </div>
+          <div class="cert-card-footer">
+            <span class="cert-date">Issued: 2025-02-22</span>
+            <a class="cert-verify-link" href="https://university.cpanel.net/certificate/4adc-adc3-df64-4fec/" target="_blank" rel="noopener noreferrer">Verify ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card-header">
+            <span class="cert-badge">SysAdmin Level II</span>
+            <span class="cert-status"><span class="cert-status-dot" aria-hidden="true"></span> Verified</span>
+          </div>
+          <h3>cPanel &amp; WHM System Administrator II</h3>
+          <span class="cert-issuer">cPanel University · WebPros</span>
+          <div class="cert-id-block">
+            <span>Certificate ID</span>
+            <code>f902-9335-ed6b-ffe2</code>
+          </div>
+          <div class="cert-card-footer">
+            <span class="cert-date">Issued: 2025-02-25</span>
+            <a class="cert-verify-link" href="https://university.cpanel.net/certificate/f902-9335-ed6b-ffe2/" target="_blank" rel="noopener noreferrer">Verify ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card-header">
+            <span class="cert-badge">SysAdmin Level I</span>
+            <span class="cert-status"><span class="cert-status-dot" aria-hidden="true"></span> Verified</span>
+          </div>
+          <h3>cPanel &amp; WHM System Administrator I</h3>
+          <span class="cert-issuer">cPanel University · WebPros</span>
+          <div class="cert-id-block">
+            <span>Certificate ID</span>
+            <code>0a30-07f8-34d4-16e3</code>
+          </div>
+          <div class="cert-card-footer">
+            <span class="cert-date">Issued: 2025-02-25</span>
+            <a class="cert-verify-link" href="https://university.cpanel.net/certificate/0a30-07f8-34d4-16e3/" target="_blank" rel="noopener noreferrer">Verify ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card-header">
+            <span class="cert-badge">Administration</span>
+            <span class="cert-status"><span class="cert-status-dot" aria-hidden="true"></span> Verified</span>
+          </div>
+          <h3>WHM Administration</h3>
+          <span class="cert-issuer">cPanel University · WebPros</span>
+          <div class="cert-id-block">
+            <span>Certificate ID</span>
+            <code>340d-ae0b-0c18-df2b</code>
+          </div>
+          <div class="cert-card-footer">
+            <span class="cert-date">Issued: 2025-02-24</span>
+            <a class="cert-verify-link" href="https://university.cpanel.net/certificate/340d-ae0b-0c18-df2b/" target="_blank" rel="noopener noreferrer">Verify ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card-header">
+            <span class="cert-badge">Security Suite</span>
+            <span class="cert-status"><span class="cert-status-dot" aria-hidden="true"></span> Verified</span>
+          </div>
+          <h3>Imunify360</h3>
+          <span class="cert-issuer">cPanel University · WebPros</span>
+          <div class="cert-id-block">
+            <span>Certificate ID</span>
+            <code>8250-676a-2cc9-4578</code>
+          </div>
+          <div class="cert-card-footer">
+            <span class="cert-date">Issued: 2025-02-25</span>
+            <a class="cert-verify-link" href="https://university.cpanel.net/certificate/8250-676a-2cc9-4578/" target="_blank" rel="noopener noreferrer">Verify ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card-header">
+            <span class="cert-badge">Web Server</span>
+            <span class="cert-status"><span class="cert-status-dot" aria-hidden="true"></span> Verified</span>
+          </div>
+          <h3>LiteSpeed</h3>
+          <span class="cert-issuer">cPanel University · WebPros</span>
+          <div class="cert-id-block">
+            <span>Certificate ID</span>
+            <code>07ecb307-0700-48dd-8232-ca05ef1b8a91</code>
+          </div>
+          <div class="cert-card-footer">
+            <span class="cert-date">Issued: 2025-06-20</span>
+            <a class="cert-verify-link" href="https://university.cpanel.net/certificate/07ecb307-0700-48dd-8232-ca05ef1b8a91/" target="_blank" rel="noopener noreferrer">Verify ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card-header">
+            <span class="cert-badge">Backup &amp; Recovery</span>
+            <span class="cert-status"><span class="cert-status-dot" aria-hidden="true"></span> Verified</span>
+          </div>
+          <h3>JetBackup 4</h3>
+          <span class="cert-issuer">cPanel University · WebPros</span>
+          <div class="cert-id-block">
+            <span>Certificate ID</span>
+            <code>2b01e903-3236-41f6-9048-07fe27439e8b</code>
+          </div>
+          <div class="cert-card-footer">
+            <span class="cert-date">Issued: 2025-06-20</span>
+            <a class="cert-verify-link" href="https://university.cpanel.net/certificate/2b01e903-3236-41f6-9048-07fe27439e8b/" target="_blank" rel="noopener noreferrer">Verify ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-card-header">
+            <span class="cert-badge">Backup &amp; Recovery</span>
+            <span class="cert-status"><span class="cert-status-dot" aria-hidden="true"></span> Verified</span>
+          </div>
+          <h3>JetBackup 5</h3>
+          <span class="cert-issuer">cPanel University · WebPros</span>
+          <div class="cert-id-block">
+            <span>Certificate ID</span>
+            <code>a3b454f7-eee0-4fbc-98de-1a0eee092463</code>
+          </div>
+          <div class="cert-card-footer">
+            <span class="cert-date">Issued: 2025-06-20</span>
+            <a class="cert-verify-link" href="https://university.cpanel.net/certificate/a3b454f7-eee0-4fbc-98de-1a0eee092463/" target="_blank" rel="noopener noreferrer">Verify ↗</a>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -277,7 +402,7 @@
               <span>Available for collaborations</span>
             </div>
             <h2>Let’s build something extraordinary.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Available for Linux systems engineering, Dedicated Server &amp; VPS infrastructure, high-availability architecture, and Scrum Master engagements.</p>
           </div>
           <div class="contact-action-col">
             <a class="button button-light" href="mailto:geovanni@example.com">Send an Email <span aria-hidden="true">→</span></a>
@@ -289,12 +414,13 @@
   </main>
   <footer class="site-footer">
     <div class="shell">
-      <span>© 2026 Geovanni M. Vergara</span>
+      <span>© 2026 Geovanni Vergara</span>
       <div class="footer-links">
         <a href="#about">About</a>
-        <a href="#work">Work</a>
         <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/in/geovanni-vergara-27b7a418b/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
       </div>
     </div>
   </footer>
