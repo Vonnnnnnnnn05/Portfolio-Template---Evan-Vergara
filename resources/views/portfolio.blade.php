@@ -4,26 +4,24 @@
   <meta charset="UTF-8">
   <meta name="service-worker-url" content="{{ asset('sw.js') }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Geovanni M. Vergara — IT student and developer building practical web systems and IoT projects.">
+  <meta name="description" content="Geovanni M. Vergara — Portfolio and developer showcase.">
   <link rel="canonical" href="{{ url('/') }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ url('/') }}">
-  <meta property="og:title" content="Geovanni M. Vergara — Web Developer &amp; Tech Enthusiast">
-  <meta property="og:description" content="A portfolio of web systems, PHP, MySQL, JavaScript, and hardware solutions built by Geovanni M. Vergara.">
-  <meta property="og:image" content="{{ asset('image.png') }}">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="Geovanni M. Vergara — Developer Portfolio">
+  <meta property="og:description" content="Portfolio of web systems and technology projects by Geovanni M. Vergara.">
+  <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#111111">
   <script>try{const t=localStorage.getItem('portfolio-theme');const d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.dataset.theme=d?'dark':'light'}catch(e){}</script>
   <link rel="manifest" href="{{ asset('manifest.json') }}">
   <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
-  <link rel="apple-touch-icon" href="{{ asset('images/logo.png') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ asset('styles.css') }}">
-  <link rel="stylesheet" href="{{ asset('enhancements.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('styles.css') }}?v={{ time() }}">
+  <link rel="stylesheet" href="{{ asset('enhancements.css') }}?v={{ time() }}">
   <title>Geovanni M. Vergara — Developer Portfolio</title>
-  <script type="application/ld+json">{"@@context":"https://schema.org","@@type":"Person","name":"Geovanni M. Vergara","url":"{{ url('/') }}","image":"{{ asset('image.png') }}","jobTitle":"Information Technology Student and Developer","knowsAbout":["PHP","JavaScript","MySQL","CodeIgniter","Laravel","Arduino","Web Systems"]}</script>
+  <script type="application/ld+json">{"@@context":"https://schema.org","@@type":"Person","name":"Geovanni M. Vergara","url":"{{ url('/') }}","jobTitle":"Web Developer"}</script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -38,52 +36,269 @@
         <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.2 15.7A8.5 8.5 0 0 1 8.3 3.8 8.5 8.5 0 1 0 20.2 15.7Z"/></svg>
         <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.41M17.66 6.34l1.41-1.41"/></svg>
       </button>
-      <a class="nav-cta" href="{{ asset('Von_Esson_Vergara_Resume.pdf') }}" target="_blank" rel="noopener noreferrer">View Resume <span aria-hidden="true">↗</span></a>
+      <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
     </div>
   </header>
   <main id="main-content">
-    <section id="top" class="hero shell reveal">
+    <section id="top" class="hero shell reveal hero-no-image">
       <div class="hero-copy">
-        <p class="eyebrow">IT student · Web developer</p>
+        <div class="hero-eyebrow-wrap">
+          <span class="eyebrow">Portfolio &amp; Selected Systems</span>
+          <span class="eyebrow-divider">/</span>
+          <span class="eyebrow-year">2026 Edition</span>
+        </div>
         <h1>Geovanni M.<br>Vergara<span>.</span></h1>
-        <p class="hero-summary">I build PHP and MySQL applications that turn manual school and small-business workflows into dependable digital systems.</p>
-        <p class="availability"><span aria-hidden="true"></span> Open to internships, junior opportunities, and project collaborations.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#work">View my best work <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="{{ asset('Von_Esson_Vergara_Resume.pdf') }}" download>Download résumé</a></div>
-        <ul class="social-list" aria-label="Professional links"><li><a href="https://github.com/Vonnnnnnnnn05" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li><li><a href="https://ph.linkedin.com/in/von-esson-vergara-8454063b8" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li></ul>
+        <p class="hero-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
+        <div class="availability-pill">
+          <span class="live-pulse-dot" aria-hidden="true"></span>
+          <p class="availability-label">Lorem ipsum dolor sit amet, consectetur adipiscing elit vivamus lacinia.</p>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore Work <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="#contact">Start Conversation</a>
+        </div>
+
+        <div class="hero-stats-row">
+          <div class="stat-box">
+            <span class="stat-num">01</span>
+            <span class="stat-text">Clean Architecture</span>
+          </div>
+          <span class="stat-slash" aria-hidden="true">/</span>
+          <div class="stat-box">
+            <span class="stat-num">02</span>
+            <span class="stat-text">Modern Stack</span>
+          </div>
+          <span class="stat-slash" aria-hidden="true">/</span>
+          <div class="stat-box">
+            <span class="stat-num">03</span>
+            <span class="stat-text">Fast Performance</span>
+          </div>
+        </div>
+
+        <ul class="social-list" aria-label="Professional links">
+          <li><a href="#" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
+          <li><a href="#contact" rel="noopener noreferrer">Contact ↗</a></li>
+        </ul>
       </div>
-      <figure class="portrait-frame"><img src="{{ asset('image.png') }}" width="1024" height="1055" alt="Portrait of Geovanni M. Vergara"></figure>
     </section>
+
     <section id="about" class="shell section reveal">
       <div class="section-label">01 / About</div>
-      <div class="about-grid"><h2>I turn real-world processes into usable digital tools.</h2><div><p>I am an Information Technology student and developer with a focus on web systems, databases, and Arduino integration. My work combines thoughtful interfaces with the practical details that make systems dependable.</p><p>I am especially interested in work that connects people, data, and hardware—from attendance and inventory systems to connected IoT projects.</p></div></div>
-      <div class="capability-grid" aria-label="Capabilities"><article><span>01</span><h3>Web systems</h3><p>PHP, CodeIgniter, Laravel, JavaScript, and responsive interfaces.</p></article><article><span>02</span><h3>Data &amp; workflows</h3><p>MySQL-backed management tools, reporting, tracking, and automation.</p></article><article><span>03</span><h3>Hardware integration</h3><p>Arduino, RFID, sensors, and database-connected prototypes.</p></article></div>
-      <div class="tech-stack" aria-label="Technology stack"><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>PHP</strong><span>Backend</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/composer/composer-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Composer</strong><span>Dependencies</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>JavaScript</strong><span>Frontend &amp; APIs</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>MySQL</strong><span>Database</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codeigniter/codeigniter-plain.svg" width="40" height="40" loading="lazy" alt=""><div><strong>CodeIgniter 4</strong><span>Framework</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Laravel</strong><span>Framework</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Bootstrap</strong><span>UI toolkit</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Tailwind CSS</strong><span>UI styling</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Arduino</strong><span>Hardware</span></div></article><article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Git</strong><span>Version control</span></div></article><article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Nginx</strong><span>Web server</span></div><small>Recent</small></article><article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Ubuntu</strong><span>Server OS</span></div><small>Recent</small></article><article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openapi/openapi-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>AI &amp; APIs</strong><span>Groq integration</span></div><small>Recent</small></article><article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Azure</strong><span>Cloud platform</span></div><small>Recent</small></article></div>
-    </section>
-    <section id="work" class="shell section work-section reveal">
-      <div class="section-heading"><div class="section-label">02 / Selected work</div><p>Three systems that show how I approach real operational problems.</p></div>
-      <div class="selected-grid">
-        <article class="project"><a class="project-image" href="https://github.com/Vonnnnnnnnn05/Scholarship-Data-Profiling-System" target="_blank" rel="noopener noreferrer"><img src="{{ asset('images/sdp.png') }}" width="1898" height="866" loading="lazy" alt="Dashboard of the Scholarship Data Profiling System"></a><div class="project-meta"><span>01</span><span>Records &amp; analytics</span></div><h2>Scholarship Data Profiling</h2><p class="project-lead">A centralized workspace for maintaining scholar records and supporting program monitoring.</p><dl class="case-study"><div><dt>Problem</dt><dd>Scholar information, reporting, and compliance data can be difficult to review when handled across disconnected records.</dd></div><div><dt>Approach</dt><dd>Combined structured profiles, reporting tools, and visual analytics in one MySQL-backed system.</dd></div><div><dt>Key features</dt><dd>Scholar profiles · Reports · Analytics dashboard</dd></div></dl><div class="tag-row"><span>PHP</span><span>MySQL</span><span>Chart.js</span></div><div class="project-actions"><a class="project-link" href="https://github.com/Vonnnnnnnnn05/Scholarship-Data-Profiling-System" target="_blank" rel="noopener noreferrer">Explore repository ↗</a><span>Demo not hosted</span></div></article>
-        <article class="project"><a class="project-image" href="https://github.com/Vonnnnnnnnn05/Carwash-Management-System" target="_blank" rel="noopener noreferrer"><img src="{{ asset('images/carwash.png') }}" width="1919" height="878" loading="lazy" alt="Interface of the Carwash CRM system"></a><div class="project-meta"><span>02</span><span>Customer workflow</span></div><h2>Carwash CRM</h2><p class="project-lead">An operational system that keeps customer details, services, and visit history together.</p><dl class="case-study"><div><dt>Problem</dt><dd>Manual customer and transaction records make it harder to follow service history and daily activity.</dd></div><div><dt>Approach</dt><dd>Designed a connected workflow around reusable customer records and service transactions.</dd></div><div><dt>Key features</dt><dd>Customer records · Transactions · Visit history</dd></div></dl><div class="tag-row"><span>PHP</span><span>MySQL</span><span>JavaScript</span></div><div class="project-actions"><a class="project-link" href="https://github.com/Vonnnnnnnnn05/Carwash-Management-System" target="_blank" rel="noopener noreferrer">Explore repository ↗</a><span>Demo not hosted</span></div></article>
-        <article class="project"><a class="project-image" href="https://github.com/Vonnnnnnnnn05/Ams" target="_blank" rel="noopener noreferrer"><img src="{{ asset('images/ams.png') }}" width="1919" height="873" loading="lazy" alt="Dashboard of the Attendance Management System"></a><div class="project-meta"><span>03</span><span>QR workflow</span></div><h2>Attendance Management</h2><p class="project-lead">A QR-based attendance workflow with live monitoring and report generation.</p><dl class="case-study"><div><dt>Problem</dt><dd>Manual attendance recording is repetitive and makes timely monitoring and reporting more difficult.</dd></div><div><dt>Approach</dt><dd>Connected QR-based check-ins to centralized records, analytics, and automated reports.</dd></div><div><dt>Key features</dt><dd>QR check-in · Live monitoring · Reports</dd></div></dl><div class="tag-row"><span>PHP</span><span>MySQL</span><span>QR Code API</span></div><div class="project-actions"><a class="project-link" href="https://github.com/Vonnnnnnnnn05/Ams" target="_blank" rel="noopener noreferrer">Explore repository ↗</a><span>Demo not hosted</span></div></article>
+      <div class="about-grid">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.</p>
+          <p>Nunc ut sem vitae risus tristique posuere. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        </div>
       </div>
-      <div class="additional-work"><div class="section-heading"><div class="section-label">Additional work</div><p>A selection of web systems and Arduino prototypes.</p></div><div class="work-index">
-        <div class="work-group"><h3>Web systems</h3><a href="https://github.com/Vonnnnnnnnn05/CodeIgnighter4-Crud" target="_blank" rel="noopener noreferrer"><span>Product Management System</span><small>CodeIgniter 4 · MySQL</small><b>↗</b></a><a href="https://github.com/Vonnnnnnnnn05/Scholarship-System" target="_blank" rel="noopener noreferrer"><span>Scholarship Eligibility Checker</span><small>PHP · MySQL</small><b>↗</b></a><a href="https://github.com/Vonnnnnnnnn05/Weather-API-Integration" target="_blank" rel="noopener noreferrer"><span>Weather Forecasting System</span><small>CodeIgniter 4 · API</small><b>↗</b></a><a href="https://github.com/Vonnnnnnnnn05/Boarding-House-V2" target="_blank" rel="noopener noreferrer"><span>Boarding House Management</span><small>PHP · MySQL</small><b>↗</b></a><a href="https://github.com/Vonnnnnnnnn05/Healthworker-Patient-System" target="_blank" rel="noopener noreferrer"><span>Healthcare Management System</span><small>PHP · MySQL</small><b>↗</b></a><a href="https://github.com/Vonnnnnnnnn05/cosmetics-Inventory-Management-System" target="_blank" rel="noopener noreferrer"><span>Inventory Management System</span><small>PHP · Chart.js</small><b>↗</b></a></div>
-        <div class="work-group"><h3>Arduino &amp; IoT</h3><a href="https://github.com/Vonnnnnnnnn05/RFID-ATTENDANCE-WITH-WEB-UI-AND-DATABASE" target="_blank" rel="noopener noreferrer"><span>RFID Attendance System</span><small>Arduino · RFID · MySQL</small><b>↗</b></a><div class="work-unavailable"><span>Smart Mousetrap System</span><small>Arduino · SMS alerts</small><b>Source unavailable</b></div><div class="work-unavailable"><span>Mood Lamp Controller</span><small>Arduino · RGB LED · WiFi</small><b>Source unavailable</b></div><a href="https://github.com/Vonnnnnnnnn05/Memory-Game-Arduino-X-PHP" target="_blank" rel="noopener noreferrer"><span>Interactive Memory Games</span><small>Arduino · LCD · PHP</small><b>↗</b></a></div>
-      </div></div>
+      <div class="capability-grid" aria-label="Capabilities">
+        <article>
+          <div class="cap-header">
+            <span class="cap-num">01</span>
+            <span class="cap-pill">Architecture</span>
+          </div>
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+        </article>
+        <article>
+          <div class="cap-header">
+            <span class="cap-num">02</span>
+            <span class="cap-pill">Development</span>
+          </div>
+          <h3>Dolor Sit</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo.</p>
+        </article>
+        <article>
+          <div class="cap-header">
+            <span class="cap-num">03</span>
+            <span class="cap-pill">Engineering</span>
+          </div>
+          <h3>Amet Consectetur</h3>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+        </article>
+      </div>
+      <div class="tech-stack" aria-label="Technology stack">
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>PHP</strong><span>Backend</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/composer/composer-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Composer</strong><span>Dependencies</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>JavaScript</strong><span>Frontend &amp; APIs</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>MySQL</strong><span>Database</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codeigniter/codeigniter-plain.svg" width="40" height="40" loading="lazy" alt=""><div><strong>CodeIgniter 4</strong><span>Framework</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Laravel</strong><span>Framework</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Bootstrap</strong><span>UI toolkit</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Tailwind CSS</strong><span>UI styling</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Arduino</strong><span>Hardware</span></div></article>
+        <article><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Git</strong><span>Version control</span></div></article>
+        <article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Nginx</strong><span>Web server</span></div><small>Recent</small></article>
+        <article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Ubuntu</strong><span>Server OS</span></div><small>Recent</small></article>
+        <article class="tech-recent"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="40" height="40" loading="lazy" alt=""><div><strong>Azure</strong><span>Cloud platform</span></div><small>Recent</small></article>
+      </div>
     </section>
-    <section id="experience" class="shell section reveal"><div class="section-label">03 / Experience &amp; education</div><div class="resume-grid"><div><h2>Experience</h2><ol class="timeline"><li><h3>Encoder / Inventory Manager</h3><p>Alocada Enterprises</p><span>Managed inventory data and improved stock-management workflows through digital tools.</span><div class="leadership-gallery"><div class="leadership-gallery-heading"><strong>Inventory data operations</strong><span>Encode · Verify · Label</span></div><div class="encoding-photos"><figure><img src="{{ asset('encoding/3e722534-94c3-49df-983e-1b0d50a564e6.jpg') }}" width="950" height="1920" loading="lazy" alt="Inventory master list with product descriptions and prices being encoded"></figure><figure><img src="{{ asset('encoding/437ce2a5-4f83-4c12-89d6-4c4228d42acf.jpg') }}" width="950" height="1920" loading="lazy" alt="Product inventory and barcode data being verified in a spreadsheet"></figure><figure><img src="{{ asset('encoding/4b063139-381c-4c83-81e0-e0362e49c835.jpg') }}" width="950" height="1920" loading="lazy" alt="Product records displayed in inventory management software"></figure><figure><img src="{{ asset('encoding/6e092d96-e090-48fd-a9b0-a52dba3f642f.jpg') }}" width="950" height="1920" loading="lazy" alt="Hardware inventory item codes, prices, and descriptions in a spreadsheet"></figure><figure><img src="{{ asset('encoding/9437138e-c6fe-4bd7-b8bf-177586fd13e7.jpg') }}" width="950" height="1920" loading="lazy" alt="Barcode label being prepared from encoded product information"></figure></div></div></li><li><h3>System Developer</h3><p>Independent projects</p><span>Designed custom web-based management systems and hardware-integrated solutions.</span><div class="leadership-gallery"><div class="leadership-gallery-heading"><strong>Development in practice</strong><span>Build · Test · Iterate</span></div><div class="leadership-photos"><figure><img src="{{ asset('developer/developer.jpg') }}" width="1536" height="2048" loading="lazy" alt="Von developing a software project on a laptop"></figure><figure><img src="{{ asset('developer/download%20(2).jpg') }}" width="1536" height="2048" loading="lazy" alt="A dual-screen development workspace with source code open"></figure><figure><img src="{{ asset('developer/image.png') }}" width="3024" height="4032" loading="lazy" alt="Von working on a laptop while away from his usual workspace"></figure></div></div></li><li><h3>Team Leader</h3><p>Academic projects</p><span>Coordinated school development teams across software and hardware work.</span><div class="leadership-gallery"><div class="leadership-gallery-heading"><strong>Capstone defense</strong><span>Project leadership · Team delivery</span></div><div class="leadership-photos leadership-photos-mixed"><figure><img src="{{ asset('team_leader/team_leader.jpg') }}" width="2048" height="1152" loading="lazy" alt="Von and his project team after successfully completing their capstone defense"></figure><figure><img src="{{ asset('team_leader/team_leader2.jpg') }}" width="960" height="1280" loading="lazy" alt="Von holding a laptop displaying the word Defended after the capstone presentation"></figure><figure><img src="{{ asset('team_leader/team_leader3.jpg') }}" width="960" height="1280" loading="lazy" alt="Von standing beside the successful capstone defense presentation screen"></figure></div></div></li></ol></div><div><h2>Education</h2><ol class="timeline"><li><h3>BS Information Technology</h3><p>Sultan Kudarat State University</p><span>Current student; recognized on the Dean's List and President's List.</span></li><li><h3>STEM Track, With Honors</h3><p>Sto. Niño National High School</p><span>Built a foundation in analytical thinking and technical problem-solving.</span></li></ol><div class="education-gallery"><div class="education-gallery-heading"><h3>Academic recognition</h3><span>Dean’s List · President’s List</span></div><div class="education-photos"><figure class="education-photo education-photo-featured"><img src="{{ asset('education/photo_2026-01-18_14-28-47.jpg') }}" width="1920" height="2560" loading="lazy" alt="Von holding President's List certificates at the university academic recognition ceremony"></figure><figure class="education-photo"><img src="{{ asset('education/photo_2026-08-07_17-30-48.jpg') }}" width="1920" height="2560" loading="lazy" alt="President's List certificates and university academic recognition program"></figure><figure class="education-photo"><img src="{{ asset('education/photo_2026-01-18_14-28-44.jpg') }}" width="1920" height="2560" loading="lazy" alt="Von showing an academic honor ribbon and recognition certificates"></figure><figure class="education-photo"><img src="{{ asset('education/download%20(1).jpg') }}" width="960" height="1280" loading="lazy" alt="Von holding two academic certificates outside the university administration building"></figure><figure class="education-photo"><img src="{{ asset('education/download.jpg') }}" width="960" height="1280" loading="lazy" alt="Von holding an academic certificate on the university campus"></figure></div></div></div></div></section>
-    <section id="contact" class="contact-section reveal"><div class="shell contact-inner"><div><p class="eyebrow">04 / Contact</p><h2>Let’s build something useful.</h2></div><div><p>I’m open to opportunities, collaboration, and conversations about web systems and IoT projects.</p><a class="button button-light" href="mailto:von.vergara.399@gmail.com">Email Von ↗</a></div></div></section>
+
+    <section id="work" class="shell section work-section reveal">
+      <div class="section-heading">
+        <div class="section-label">02 / Selected work</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</p>
+      </div>
+      <div class="selected-grid">
+        <article class="project">
+          <div class="project-meta">
+            <span class="project-badge">01</span>
+            <span class="project-category">Web System</span>
+          </div>
+          <h2>Lorem Ipsum Project</h2>
+          <p class="project-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+          <dl class="case-study">
+            <div class="case-item"><dt>Problem</dt><dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.</dd></div>
+            <div class="case-item"><dt>Approach</dt><dd>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd></div>
+            <div class="case-item"><dt>Key features</dt><dd>Lorem · Ipsum · Dolor</dd></div>
+          </dl>
+          <div class="tag-row"><span>Lorem</span><span>Ipsum</span><span>Dolor</span></div>
+          <div class="project-actions">
+            <a class="project-link" href="#">Explore project <span aria-hidden="true">→</span></a>
+            <span class="project-status">Production</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="project-badge">02</span>
+            <span class="project-category">Cloud Database</span>
+          </div>
+          <h2>Dolor Sit Application</h2>
+          <p class="project-lead">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+          <dl class="case-study">
+            <div class="case-item"><dt>Problem</dt><dd>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</dd></div>
+            <div class="case-item"><dt>Approach</dt><dd>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</dd></div>
+            <div class="case-item"><dt>Key features</dt><dd>Consectetur · Adipiscing · Elit</dd></div>
+          </dl>
+          <div class="tag-row"><span>Consectetur</span><span>Adipiscing</span><span>Elit</span></div>
+          <div class="project-actions">
+            <a class="project-link" href="#">Explore project <span aria-hidden="true">→</span></a>
+            <span class="project-status">Completed</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span class="project-badge">03</span>
+            <span class="project-category">Interface &amp; API</span>
+          </div>
+          <h2>Amet Elit Platform</h2>
+          <p class="project-lead">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur.</p>
+          <dl class="case-study">
+            <div class="case-item"><dt>Problem</dt><dd>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sed quia non.</dd></div>
+            <div class="case-item"><dt>Approach</dt><dd>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</dd></div>
+            <div class="case-item"><dt>Key features</dt><dd>Sed · Cursus · Ante</dd></div>
+          </dl>
+          <div class="tag-row"><span>Sed</span><span>Cursus</span><span>Ante</span></div>
+          <div class="project-actions">
+            <a class="project-link" href="#">Explore project <span aria-hidden="true">→</span></a>
+            <span class="project-status">Featured</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="additional-work">
+        <div class="section-heading">
+          <div class="section-label">Additional work</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="work-index">
+          <div class="work-group">
+            <h3>Lorem systems</h3>
+            <a href="#"><span>Lorem Ipsum One</span><small>Lorem · Ipsum</small><b>↗</b></a>
+            <a href="#"><span>Lorem Ipsum Two</span><small>Dolor · Sit</small><b>↗</b></a>
+            <a href="#"><span>Lorem Ipsum Three</span><small>Amet · Consectetur</small><b>↗</b></a>
+            <a href="#"><span>Lorem Ipsum Four</span><small>Adipiscing · Elit</small><b>↗</b></a>
+          </div>
+          <div class="work-group">
+            <h3>Dolor projects</h3>
+            <a href="#"><span>Dolor Sit One</span><small>Lorem · Ipsum</small><b>↗</b></a>
+            <div class="work-unavailable"><span>Dolor Sit Two</span><small>Dolor · Sit</small><b>Unavailable</b></div>
+            <a href="#"><span>Dolor Sit Three</span><small>Amet · Consectetur</small><b>↗</b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="shell section reveal">
+      <div class="section-label">03 / Experience</div>
+      <div class="resume-grid single-column">
+        <div>
+          <h2>Experience</h2>
+          <ol class="timeline">
+            <li>
+              <div class="timeline-head">
+                <h3>Lorem Ipsum Role</h3>
+                <span class="timeline-period">2024 — Present</span>
+              </div>
+              <div class="timeline-org">
+                <span class="org-name">Lorem Ipsum Enterprise</span>
+                <span class="org-type">Full Time</span>
+              </div>
+              <p class="timeline-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </li>
+            <li>
+              <div class="timeline-head">
+                <h3>Dolor Sit Position</h3>
+                <span class="timeline-period">2022 — 2024</span>
+              </div>
+              <div class="timeline-org">
+                <span class="org-name">Dolor Sit Corporation</span>
+                <span class="org-type">Contract</span>
+              </div>
+              <p class="timeline-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </li>
+            <li>
+              <div class="timeline-head">
+                <h3>Consectetur Specialist</h3>
+                <span class="timeline-period">2021 — 2022</span>
+              </div>
+              <div class="timeline-org">
+                <span class="org-name">Consectetur Solutions</span>
+                <span class="org-type">Project Lead</span>
+              </div>
+              <p class="timeline-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section reveal">
+      <div class="shell contact-shell">
+        <div class="contact-inner">
+          <div>
+            <div class="contact-badge">
+              <span class="badge-dot"></span>
+              <span>Available for collaborations</span>
+            </div>
+            <h2>Let’s build something extraordinary.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="contact-action-col">
+            <a class="button button-light" href="mailto:geovanni@example.com">Send an Email <span aria-hidden="true">→</span></a>
+            <span class="contact-subtext">Usually responds within 24 hours</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <aside class="chat-widget" aria-label="Portfolio assistant">
-    <button class="chat-toggle" type="button" aria-expanded="false" aria-controls="chat-panel">Ask AI</button>
-    <section id="chat-panel" class="chat-panel" hidden role="dialog" aria-modal="false" aria-label="Von's portfolio assistant">
-      <header><div><strong>Portfolio assistant</strong><span>Ask about Von’s work</span></div><button class="chat-close" type="button" aria-label="Close assistant">×</button></header>
-      <div class="chat-messages" aria-live="polite"><p class="chat-message bot">Hi — ask me about Von’s skills, selected work, or how to get in touch.</p></div>
-      <div class="chat-suggestions"><button type="button" data-message="What are Von's skills?">Skills</button><button type="button" data-message="Tell me about Von's projects">Projects</button><button type="button" data-message="How can I contact Von?">Contact</button></div>
-      <p class="chat-privacy">Messages are processed by an external AI service. Please don’t share sensitive information.</p>
-      <form class="chat-form"><label class="sr-only" for="chat-input">Your message</label><input id="chat-input" name="message" autocomplete="off" placeholder="Ask a question…" required><button type="submit">Send</button></form>
-    </section>
-  </aside>
-  <footer class="site-footer"><div class="shell"><span>© 2026 Von Esson Vergara</span><div><a href="mailto:von.vergara.399@gmail.com">Email</a><a href="https://github.com/Vonnnnnnnnn05" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://ph.linkedin.com/in/von-esson-vergara-8454063b8" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div></footer>
-  <button class="back-to-top" type="button" aria-label="Back to top">↑</button><script src="{{ asset('script.js?v=9') }}"></script>
-</body></html>
+  <footer class="site-footer">
+    <div class="shell">
+      <span>© 2026 Geovanni M. Vergara</span>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="{{ asset('script.js') }}?v={{ time() }}"></script>
+</body>
+</html>
