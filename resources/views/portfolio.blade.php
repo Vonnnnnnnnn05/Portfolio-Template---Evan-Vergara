@@ -8,7 +8,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ url('/') }}">
   <meta property="og:title" content="Geovanni M. Vergara (Evan) — Tier-2 Linux System Administrator">
-  <meta property="og:description" content="Tier-2 Linux System Administrator with 7 years at Dreamscape Networks / Newfold Digital and 14+ years in IT infrastructure, Dedicated Servers, VPS, and cPanel/WHM.">
+  <meta property="og:description" content="Tier-2 Linux System Administrator with almost 10 years at Dreamscape Networks / Newfold Digital and 14+ years in IT infrastructure, Dedicated Servers, VPS, and cPanel/WHM.">
   <meta property="og:image" content="{{ asset('images/geovanni.png') }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ asset('images/geovanni.png') }}">
@@ -83,7 +83,7 @@
           <span class="eyebrow-year">Dreamscape Networks / Newfold Digital · Cebu</span>
         </div>
         <h1>Geovanni M.<br>Vergara<span>.</span></h1>
-        <p class="hero-summary">Tier-2 Linux System Administrator and cPanel &amp; WHM Certified Professional with 7 years at Dreamscape Networks / Newfold Digital managing Dedicated Servers, VPS, and multi-region hosting platforms. Over 14 years of enterprise Linux systems engineering, network security, and infrastructure operations experience.</p>
+        <p class="hero-summary">Tier-2 Linux System Administrator and cPanel &amp; WHM Certified Professional with almost 10 years at Dreamscape Networks / Newfold Digital managing Dedicated Servers, VPS, and multi-region hosting platforms. Over 14 years of enterprise Linux systems engineering, network security, and infrastructure operations experience.</p>
         
         <div class="hero-contact-chips">
           <a class="hero-contact-chip" href="mailto:verg214@gmail.com" title="Send email to verg214@gmail.com">
@@ -116,7 +116,7 @@
 
         <div class="hero-stats-row">
           <div class="stat-box">
-            <span class="stat-num">7 Yrs</span>
+            <span class="stat-num">Almost 10 Yrs</span>
             <span class="stat-text">Dreamscape / Newfold</span>
           </div>
           <span class="stat-slash" aria-hidden="true">/</span>
@@ -158,7 +158,7 @@
         <h2>Tier-2 Linux System Administrator &amp; Infrastructure Specialist.</h2>
         <div>
           <p>Geovanni M. Vergara (known to colleagues and friends as <strong>Evan</strong>) is an experienced Tier-2 Linux System Administrator and cPanel &amp; WHM Certified Professional with a comprehensive track record spanning more than 14 years across enterprise systems administration, dedicated server hosting, virtualization, and network infrastructure.</p>
-          <p>Over a span of 7 years at Dreamscape Networks / Newfold Digital (March 2017 – March 2024), Evan provided round-the-clock 24x7 Tier 2 escalation engineering for high-density shared hosting, VIP Dedicated Servers, VPS nodes, and colocation infrastructure across global data center regions. He holds a Bachelor of Science in Computer Engineering from Asian College of Technology (2010).</p>
+          <p>Over a span of almost 10 years at Dreamscape Networks / Newfold Digital (March 2017 – March 2024), Evan provided round-the-clock 24x7 Tier 2 escalation engineering for high-density shared hosting, VIP Dedicated Servers, VPS nodes, and colocation infrastructure across global data center regions. He holds a Bachelor of Science in Computer Engineering from Asian College of Technology (2010).</p>
         </div>
       </div>
       <div class="capability-grid" aria-label="Capabilities">
@@ -261,7 +261,7 @@
             <li>
               <div class="timeline-head">
                 <h3>Tier2 Linux System Administrator — Dedicated Server / VPS</h3>
-                <span class="timeline-period">March 2017 — March 2024 (7 yrs 1 mo)</span>
+                <span class="timeline-period">March 2017 — March 2024 (Almost 10 yrs)</span>
               </div>
               <div class="timeline-org">
                 <a class="org-name timeline-company-link" href="https://www.dreamscapenetworks.com/" target="_blank" rel="noopener noreferrer">Dreamscape Networks / Newfold Digital ↗</a>
